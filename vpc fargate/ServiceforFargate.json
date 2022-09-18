@@ -1,0 +1,16 @@
+[
+    {
+      "name": "PriyaFragateContainer",
+      "image": "mcr.microsoft.com/linux/servercore/apache2",
+      "cpu": 10,
+      "memory": 512,
+      "networkMode" : "awsvpc",
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 80,
+          "hostPort": 80
+        }
+      ]
+    }
+  ]
